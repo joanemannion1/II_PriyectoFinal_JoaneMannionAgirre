@@ -1,5 +1,6 @@
 # II_PriyectoFinal_JoaneMannionAgirre
  Interfaces Inteligentes, proyecto final
+ 
  Autora: Joane Mannion Agirre - alu0101451701
  
 ## Cuestiones importantes para el uso
@@ -41,7 +42,9 @@ Este proyecto consta de 7 scripts que permiten el funcionamiento de nuestro jueg
 
 ### Hitos de programación logrados relacionándolos con los contenidos que se han impartido.
 En este proyecto final he tenido como objetivo utilizar elementos que hemos utilizado durante las prácticas de la asignatura. Por lo tanto he añadido delegados y eventos, sensores (brujula) y reconocimiento de voz al proyecto. Como he explicado en el punto anterior, mediante los delegados y eventos hemos conseguido que diferentes objetos de la escena se comuniquen. Así he conseguido que cada vez que una bola es recogida, la puntuación aumente y cuando la puntuación llegue a 50, el tesero aparezca.
+
 Con el uso de la brujula he conseguido facilitar la orientación del jugador en el laverinto, ya que así sabe en que dirección se esta moviendo en todo momento.
+
 Para finalizar, con el reconocimiento de voz hemos conseguido que el movimiento de nuestro jugador sea mas cómodo y mas rápido, ya que no hace falta hacer click en nada sino con el uso de nuestra voz podemos cambiar el movimiento de nuestro jugador.
 
 ## Acta de los acuerdos del grupo respecto al trabajo en equipo.
