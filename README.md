@@ -21,7 +21,7 @@ Después, tendremos que hacer click en *Player Settings* esto nos abrirá una se
 
 Una vez hecho esto, desplegaremos el apartado *XR Settings*. Ahí activaremos donde pone *Virtual Reality Supported* y pinchando en el pequeño símbolo + que aparece bajo List is Empty añadiremos **Cardboard**.
 
-Una vez lo tenemos todo lo anterior configurado, procederemos a descargarnos el paquete de **Google VR** para Unity que ofrece el propio Google desde Github ((https://github.com/googlevr/gvr-unity-sdk/releases)). Para esto, entraremos a la web del repositorio y descargaremos el unitypackage de la última versión. Tras descargarlo, tendremos que importarlo desde *Assets -> Import package -> Custom Package* .
+Una vez lo tenemos todo lo anterior configurado, procederemos a descargarnos el paquete de **Google VR** para Unity que ofrece el propio Google desde Github (https://github.com/googlevr/gvr-unity-sdk/releases). Para esto, entraremos a la web del repositorio y descargaremos el unitypackage de la última versión. Tras descargarlo, tendremos que importarlo desde *Assets -> Import package -> Custom Package* .
 
 Ahora, sera necesario configurar la escena. Primero crearemos un objeto vacío que hara de padre de la camára (llamado *Player*), después añadiremos como hijo de la cámara el GameObject **GvrReticlePointer**. Después añadiremos a la raíz los GameObjects **GvrEditorEmulator** y **GvrEventSystem**. Para finalizar, añadiremos el Script **GvrPointerPhysicsRaycaster** a la cámara. Así queda la jerarquía:
 
