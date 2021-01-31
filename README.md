@@ -24,6 +24,7 @@ Una vez hecho esto, desplegaremos el apartado *XR Settings*. Ahí activaremos do
 Una vez lo tenemos todo lo anterior configurado, procederemos a descargarnos el paquete de **Google VR** para Unity que ofrece el propio Google desde Github (https://github.com/googlevr/gvr-unity-sdk/releases). Para esto, entraremos a la web del repositorio y descargaremos el unitypackage de la última versión. Tras descargarlo, tendremos que importarlo desde *Assets -> Import package -> Custom Package* .
 
 Ahora, sera necesario configurar la escena. Primero crearemos un objeto vacío que hara de padre de la camára (llamado *Player*), después añadiremos como hijo de la cámara el GameObject **GvrReticlePointer**. Después añadiremos a la raíz los GameObjects **GvrEditorEmulator** y **GvrEventSystem**. Para finalizar, añadiremos el Script **GvrPointerPhysicsRaycaster** a la cámara. Así queda la jerarquía:
+![alt text](https://github.com/joanemannion1/II_PriyectoFinal_JoaneMannionAgirre/blob/main/img/img1.PNG "Jerarquia")
 
 ### Creación de las escenas
 Para este juego he realizado tres escenas, pero se podrian crear muchas mas dependiendo de la cantidad de niveles que quieras añadir.
@@ -52,4 +53,6 @@ Para finalizar, con el reconocimiento de voz hemos conseguido que el movimiento 
 Este trabajo ha sido realizado de manera individual, por lo tanto yo me he encargado de la realización del proyecto, de las pruebas y de la creación de la documentación.
 
 ## Gif animado de ejecución
-
+![alt text](https://github.com/joanemannion1/II_PriyectoFinal_JoaneMannionAgirre/blob/main/gif/gif_menu.gif "Menu")
+![alt text](https://github.com/joanemannion1/II_PriyectoFinal_JoaneMannionAgirre/blob/main/gif/gif_nivel1.gif "Nivel1")
+![alt text](https://github.com/joanemannion1/II_PriyectoFinal_JoaneMannionAgirre/blob/main/gif/gif_nivel2.gif "Nivel2")
