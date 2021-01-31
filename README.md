@@ -6,6 +6,7 @@
 ## Cuestiones importantes para el uso
 El objetivo del proyecto final de la asignatura es realizar un juego de Realidad Virtual (RV) que integre técnicas que se han ido desarrollando en las diferentes prácticas de RV. Para ello, hemos creado un juego en unity que consiste en conseguir puntos en un laverinto para poder pasar al siguiente nivel.
 Para conseguir dichos puntos, habra bolas rojas esparcidas por el mapa de forma aleatoria, cada bola que recogamos nos proporcionara 10 puntos y cuando obtengamos 50 puntos aparecera un tesoro (en forma de un cubo amarillo) en algun punto del mapa. Al encontrar el tesoro automaticamente pasaremos al siguiente nivel.
+
 La manera de movernos por el mapa sera moviendo el movil (????) o mediante la utilización de la voz. Es decir, nuestro jugador siempre estara moviendose en la dirección en la que estemos mirando, podremos controlar este movimiento utilizando cuatro palabras claves:
 - **parar**: el jugador se detendra. 
 - **empezar**: el jugador volvera a moverse. 
