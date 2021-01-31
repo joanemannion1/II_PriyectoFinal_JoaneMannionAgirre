@@ -31,13 +31,13 @@ Para este juego he realizado tres escenas, pero se podrian crear muchas mas depe
 
 ### Los Scripts y Sensores utilizados en el proyecto.
 Este proyecto consta de 7 scripts que permiten el funcionamiento de nuestro juego. En el siguiente punto explicaremos el objetivo de cada script.
--**BallScript**: Este script lanzará un evento cuando el jugador recoga una esfera. Así podremos incrementar el marcador de la pantalla cada vez que recogamos una esfera. 
--**BrujulaScript**: Con este script, hemos conseguido que la brujula siempre señale al Polo Norte, así ayudando al jugador a orientarse en el mapa. La brujula es un componente del móvil, y mediante los datos obtenidos de este componente hemos conseguido mover la brújula de nuestro juego.
--**InicioScript**:Este script se encargará de que el botón de inicio del juego funcione correctamente tanto haciendo click como mediante el reconocimiento de voz. 
--**RandomObject**: Mediante este script, crearemos el número indicado de esferas en nuestro mapa de forma aleatoria. Es decir, cada vez que ejecutemos el juego las esferas se encontaran en puntos diferentes a la ejecución anterior. 
--**TextScript**: Con este script controlaremos el marcador de la pantalla. Este tendra un contador, que cada vez que el jugador coja una esfera incrementara 10 puntos. Cuando el marcador llegue a los 50 puntos, lanzará un evento que mostrara el tesoro.
--**TreasureScript**: Este script mostrara el tesoro cuando el jugador obtenga los 50 puntos, después esperara a que el jugador encuentre el tesoro y cuande el jugador haga click en el tesoro nos enviara al siguiente nivel. 
--**VRLookWalk**: Mediante este script haremos que el jugador se mueva a dónde nostros miremos. También nos permitira controlar el jugador mediante el reconocimiento de voz utilizando los cuatro comandos explicados anteriormente.
+- **BallScript**: Este script lanzará un evento cuando el jugador recoga una esfera. Así podremos incrementar el marcador de la pantalla cada vez que recogamos una esfera. 
+- **BrujulaScript**: Con este script, hemos conseguido que la brujula siempre señale al Polo Norte, así ayudando al jugador a orientarse en el mapa. La brujula es un componente del móvil, y mediante los datos obtenidos de este componente hemos conseguido mover la brújula de nuestro juego.
+- **InicioScript**:Este script se encargará de que el botón de inicio del juego funcione correctamente tanto haciendo click como mediante el reconocimiento de voz. 
+- **RandomObject**: Mediante este script, crearemos el número indicado de esferas en nuestro mapa de forma aleatoria. Es decir, cada vez que ejecutemos el juego las esferas se encontaran en puntos diferentes a la ejecución anterior. 
+- **TextScript**: Con este script controlaremos el marcador de la pantalla. Este tendra un contador, que cada vez que el jugador coja una esfera incrementara 10 puntos. Cuando el marcador llegue a los 50 puntos, lanzará un evento que mostrara el tesoro.
+- **TreasureScript**: Este script mostrara el tesoro cuando el jugador obtenga los 50 puntos, después esperara a que el jugador encuentre el tesoro y cuande el jugador haga click en el tesoro nos enviara al siguiente nivel. 
+- **VRLookWalk**: Mediante este script haremos que el jugador se mueva a dónde nostros miremos. También nos permitira controlar el jugador mediante el reconocimiento de voz utilizando los cuatro comandos explicados anteriormente.
 
 ### Hitos de programación logrados relacionándolos con los contenidos que se han impartido.
 En este proyecto final he tenido como objetivo utilizar elementos que hemos utilizado durante las prácticas de la asignatura. Por lo tanto he añadido delegados y eventos, sensores (brujula) y reconocimiento de voz al proyecto. Como he explicado en el punto anterior, mediante los delegados y eventos hemos conseguido que diferentes objetos de la escena se comuniquen. Así he conseguido que cada vez que una bola es recogida, la puntuación aumente y cuando la puntuación llegue a 50, el tesero aparezca.
@@ -47,5 +47,5 @@ Para finalizar, con el reconocimiento de voz hemos conseguido que el movimiento 
 ## Acta de los acuerdos del grupo respecto al trabajo en equipo.
 Este trabajo ha sido realizado de manera individual, por lo tanto yo me he encargado de la realización del proyecto, de las pruebas y de la creación de la documentación.
 
-### Gif animado de ejecución
+## Gif animado de ejecución
 
