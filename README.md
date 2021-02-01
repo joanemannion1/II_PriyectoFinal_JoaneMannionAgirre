@@ -7,7 +7,7 @@
 El objetivo del proyecto final de la asignatura es realizar un juego de Realidad Virtual (RV) que integre técnicas que se han ido desarrollando en las diferentes prácticas de RV. Para ello, hemos creado un juego en unity que consiste en conseguir puntos en un laverinto para poder pasar al siguiente nivel.
 Para conseguir dichos puntos, habra bolas rojas esparcidas por el mapa de forma aleatoria, cada bola que recogamos nos proporcionara 10 puntos y cuando obtengamos 50 puntos aparecera un tesoro (en forma de un cubo amarillo) en algun punto del mapa. Al encontrar el tesoro automaticamente pasaremos al siguiente nivel.
 
-La manera de movernos por el mapa sera moviendo el movil (????) o mediante la utilización de la voz. Es decir, nuestro jugador siempre estara moviendose en la dirección en la que estemos mirando, podremos controlar este movimiento utilizando cuatro palabras claves:
+La manera de movernos por el mapa sera moviendo el movil o mediante la utilización de la voz. Es decir, nuestro jugador siempre estara moviendose en la dirección en la que estemos mirando, podremos controlar este movimiento utilizando cuatro palabras claves:
 - **parar**: el jugador se detendra. 
 - **empezar**: el jugador volvera a moverse. 
 - **rapío**: la velocidad en la que se mueve nuestro jugador aumentara. 
@@ -34,7 +34,7 @@ Para este juego he realizado tres escenas, pero se podrian crear muchas mas depe
 
 ### Los Scripts y Sensores utilizados en el proyecto.
 Este proyecto consta de 7 scripts que permiten el funcionamiento de nuestro juego. En el siguiente punto explicaremos el objetivo de cada script.
-- **BallScript**: Este script lanzará un evento cuando el jugador recoga una esfera. Así podremos incrementar el marcador de la pantalla cada vez que recogamos una esfera. 
+- **BallScript**: Este script lanzará un evento cuando el jugador recoja una esfera. Así podremos incrementar el marcador de la pantalla cada vez que recogamos una esfera. 
 - **BrujulaScript**: Con este script, hemos conseguido que la brujula siempre señale al Polo Norte, así ayudando al jugador a orientarse en el mapa. La brujula es un componente del móvil, y mediante los datos obtenidos de este componente hemos conseguido mover la brújula de nuestro juego.
 - **InicioScript**:Este script se encargará de que el botón de inicio del juego funcione correctamente tanto haciendo click como mediante el reconocimiento de voz. 
 - **RandomObject**: Mediante este script, crearemos el número indicado de esferas en nuestro mapa de forma aleatoria. Es decir, cada vez que ejecutemos el juego las esferas se encontaran en puntos diferentes a la ejecución anterior. 
@@ -53,6 +53,11 @@ Para finalizar, con el reconocimiento de voz hemos conseguido que el movimiento 
 Este trabajo ha sido realizado de manera individual, por lo tanto yo me he encargado de la realización del proyecto, de las pruebas y de la creación de la documentación.
 
 ## Gif animado de ejecución
+Menu:
 ![alt text](https://github.com/joanemannion1/II_PriyectoFinal_JoaneMannionAgirre/blob/main/gif/gif_menu.gif "Menu")
+
+Nivel 1:
 ![alt text](https://github.com/joanemannion1/II_PriyectoFinal_JoaneMannionAgirre/blob/main/gif/gif_nivel1.gif "Nivel1")
+
+Nivel2:
 ![alt text](https://github.com/joanemannion1/II_PriyectoFinal_JoaneMannionAgirre/blob/main/gif/gif_nivel2.gif "Nivel2")
